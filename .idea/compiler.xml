@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="product-service-impl" target="1.8" />
+      <module name="user-mgmt-impl" target="1.8" />
+      <module name="user-mgmt-stream-impl" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="product-service-api" options="-parameters" />
+      <module name="product-service-impl" options="-g -encoding UTF-8 -parameters -Xlint:unchecked -Xlint:deprecation -parameters" />
+      <module name="user-mgmt-api" options="-parameters" />
+      <module name="user-mgmt-impl" options="-g -encoding UTF-8 -parameters -Xlint:unchecked -Xlint:deprecation -parameters" />
+      <module name="user-mgmt-stream-api" options="-parameters" />
+      <module name="user-mgmt-stream-impl" options="-g -encoding UTF-8 -parameters -Xlint:unchecked -Xlint:deprecation -parameters" />
+    </option>
+  </component>
+</project>
